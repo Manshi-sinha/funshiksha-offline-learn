@@ -1,0 +1,125 @@
+{
+  "welcome": {
+    "title": "ଫନଶିକ୍ଷା",
+    "subtitle": "ମଜାଦାର ଶିକ୍ଷା"
+  },
+  "languageSelection": {
+    "title": "ଆପଣଙ୍କ ଭାଷା ବାଛନ୍ତୁ",
+    "subtitle": "Choose Your Language | भाषा चुनें",
+    "note": "ଆପଣ ଏହାକୁ ପରେ ସେଟିଂରେ ବଦଳାଇ ପାରିବେ"
+  },
+  "classSelection": {
+    "title": "ଫନଶିକ୍ଷାରେ ଆପଣଙ୍କୁ ସ୍ୱାଗତ!",
+    "subtitle": "ଆପଣଙ୍କ ଶିକ୍ଷା ଯାତ୍ରା ଆରମ୍ଭ କରିବା ପାଇଁ ଆପଣଙ୍କ ଶ୍ରେଣୀ ବାଛନ୍ତୁ",
+    "interactiveLearning": "ଇଣ୍ଟରାକ୍ଟିଭ ଲର୍ନିଂ",
+    "teacher": "ମୁଁ ଜଣେ ଶିକ୍ଷକ"
+  },
+  "studentLogin": {
+    "title": "ଛାତ୍ର ଲଗଇନ୍",
+    "subtitle": "ଶିଖିବା ଆରମ୍ଭ କରିବା ପାଇଁ ଆପଣଙ୍କ ବିବରଣୀ ଦିଅନ୍ତୁ",
+    "namePlaceholder": "ଆପଣଙ୍କ ପୂର୍ଣ୍ଣ ନାମ ଦିଅନ୍ତୁ",
+    "rollNumberPlaceholder": "ଆପଣଙ୍କ ରୋଲ ନମ୍ବର ଦିଅନ୍ତୁ",
+    "startJourney": "ଶିକ୍ଷା ଯାତ୍ରା ଆରମ୍ଭ କରନ୍ତୁ",
+    "progressSaved": "ଆପଣଙ୍କ ଅଗ୍ରଗତି ଏହି ଡିଭାଇସରେ ସ୍ଥାନୀୟ ଭାବରେ ସଞ୍ଚୟ ହେବ",
+    "backToHome": "ହୋମକୁ ଫେରନ୍ତୁ",
+    "invalidCredentials": "ଭୁଲ ରୋଲ ନମ୍ବର କିମ୍ବା ନାମ"
+  },
+  "teacherLogin": {
+    "title": "ଶିକ୍ଷକ ପୋର୍ଟାଲ",
+    "subtitle": "ଆପଣଙ୍କ ଶିକ୍ଷଣ ଡ୍ୟାସବୋର୍ଡକୁ ପ୍ରବେଶ କରନ୍ତୁ",
+    "loginIdPlaceholder": "ଆପଣଙ୍କ ଲଗଇନ୍ ଆଇଡି ଦିଅନ୍ତୁ",
+    "passwordPlaceholder": "ଆପଣଙ୍କ ପାସୱାର୍ଡ ଦିଅନ୍ତୁ",
+    "login": "ଲଗଇନ୍",
+    "register": "ନୂତନ ଉପଯୋଗକର୍ତ୍ତା ଭାବରେ ପଞ୍ଜୀକରଣ କରନ୍ତୁ",
+    "existingUser": "ବିଦ୍ୟମାନ ଉପଯୋଗକର୍ତ୍ତା",
+    "newUser": "ନୂତନ ଉପଯୋଗକର୍ତ୍ତା",
+    "backToHome": "ହୋମକୁ ଫେରନ୍ତୁ",
+    "invalidCredentials": "ଭୁଲ ଲଗଇନ୍ ଆଇଡି କିମ୍ବା ପାସୱାର୍ଡ"
+  },
+  "teacherRegistration": {
+    "title": "ଶିକ୍ଷକ ପଞ୍ଜୀକରଣ",
+    "subtitle": "ଆପଣଙ୍କ ଶିକ୍ଷଣ ଖାତା ସୃଷ୍ଟି କରନ୍ତୁ",
+    "namePlaceholder": "ଆପଣଙ୍କ ପୂର୍ଣ୍ଣ ନାମ ଦିଅନ୍ତୁ",
+    "loginIdPlaceholder": "ଏକ ଅନନ୍ୟ ଲଗଇନ୍ ଆଇଡି ସୃଷ୍ଟି କରନ୍ତୁ",
+    "passwordPlaceholder": "ଏକ ଦୃଢ଼ ପାସୱାର୍ଡ ସୃଷ୍ଟି କରନ୍ତୁ",
+    "register": "ଖାତା ପଞ୍ଜୀକରଣ କରନ୍ତୁ",
+    "backToLogin": "ଲଗଇନ୍କୁ ଫେରନ୍ତୁ",
+    "registrationSuccess": "ପଞ୍ଜୀକରଣ ସଫଳ! ଆପଣ ବର୍ତ୍ତମାନ ଲଗଇନ୍ କରିପାରିବେ।",
+    "loginIdExists": "ଲଗଇନ୍ ଆଇଡି ପୂର୍ବରୁ ଅଛି। ଦୟାକରି ଏକ ଭିନ୍ନ ବାଛନ୍ତୁ।"
+  },
+  "studentDashboard": {
+    "title": "ଫେରି ଆସିବାକୁ ସ୍ୱାଗତ",
+    "subtitle": "ଆପଣଙ୍କ ଶିକ୍ଷା ଯାତ୍ରା ଜାରି ରଖନ୍ତୁ",
+    "subjects": {
+      "math": "ଗଣିତ",
+      "science": "ବିଜ୍ଞାନ",
+      "sst": "ସାମାଜିକ ବିଜ୍ଞାନ",
+      "odia": "ଓଡ଼ିଆ",
+      "hindi": "ହିନ୍ଦୀ",
+      "english": "ଇଂରାଜୀ"
+    },
+    "progress": "ଅଗ୍ରଗତି",
+    "startLearning": "ଶିଖିବା ଆରମ୍ଭ କରନ୍ତୁ",
+    "backToHome": "ହୋମକୁ ଫେରନ୍ତୁ"
+  },
+  "teacherDashboard": {
+    "title": "ଶିକ୍ଷକ ଡ୍ୟାସବୋର୍ଡ",
+    "subtitle": "ଆପଣଙ୍କ ଶ୍ରେଣୀଗୁଡ଼ିକ ପରିଚାଳନା କରନ୍ତୁ ଏବଂ ଛାତ୍ରମାନଙ୍କ ଅଗ୍ରଗତି ଟ୍ରାକ କରନ୍ତୁ",
+    "totalStudents": "ମୋଟ ଛାତ୍ର",
+    "activeClasses": "ସକ୍ରିୟ ଶ୍ରେଣୀଗୁଡ଼ିକ",
+    "assignmentsGraded": "ଗ୍ରେଡ କରାଯାଇଥିବା ଆସାଇନମେଣ୍ଟ",
+    "averageScore": "ହାରାହାରି ସ୍କୋର",
+    "recentActivity": "ସାମ୍ପ୍ରତିକ ଗତିବିଧି",
+    "quickActions": "ତୁରନ୍ତ କାର୍ଯ୍ୟ",
+    "createAssignment": "ଆସାଇନମେଣ୍ଟ ସୃଷ୍ଟି କରନ୍ତୁ",
+    "viewReports": "ରିପୋର୍ଟ ଦେଖନ୍ତୁ",
+    "manageStudents": "ଛାତ୍ରମାନଙ୍କୁ ପରିଚାଳନା କରନ୍ତୁ",
+    "settings": "ସେଟିଂସ",
+    "logout": "ଲଗଆଉଟ",
+    "backToHome": "ହୋମକୁ ଫେରନ୍ତୁ"
+  },
+  "games": {
+    "indiaMap": {
+      "title": "ଭାରତ ଅନ୍ବେଷଣ କରନ୍ତୁ",
+      "subtitle": "ଆକର୍ଷଣୀୟ ତଥ୍ୟ ଶିଖିବା ପାଇଁ ରାଜ୍ୟଗୁଡ଼ିକ ଉପରେ କ୍ଲିକ୍ କରନ୍ତୁ",
+      "backToDashboard": "ଡ୍ୟାସବୋର୍ଡକୁ ଫେରନ୍ତୁ"
+    },
+    "odiaWord": {
+      "title": "ଓଡ଼ିଆ ଶବ୍ଦ ନିର୍ମାଣ",
+      "subtitle": "ଅକ୍ଷରଗୁଡ଼ିକୁ ସଠିକ୍ ଭାବରେ ସଜାଇ ଶବ୍ଦ ତିଆରି କରନ୍ତୁ",
+      "score": "ସ୍କୋର",
+      "timeLeft": "ସମୟ ବାକି",
+      "newGame": "ନୂତନ ଖେଳ",
+      "backToDashboard": "ଡ୍ୟାସବୋର୍ଡକୁ ଫେରନ୍ତୁ"
+    },
+    "hindiGrammar": {
+      "title": "ହିନ୍ଦୀ ବ୍ୟାକରଣ ଚ୍ୟାଲେଞ୍ଜ",
+      "subtitle": "ଆପଣଙ୍କ ହିନ୍ଦୀ ବ୍ୟାକରଣ ଜ୍ଞାନ ପରୀକ୍ଷା କରନ୍ତୁ",
+      "score": "ସ୍କୋର",
+      "question": "ପ୍ରଶ୍ନ",
+      "submit": "ଦାଖଲ କରନ୍ତୁ",
+      "nextQuestion": "ପରବର୍ତ୍ତୀ ପ୍ରଶ୍ନ",
+      "backToDashboard": "ଡ୍ୟାସବୋର୍ଡକୁ ଫେରନ୍ତୁ"
+    },
+    "englishVocabulary": {
+      "title": "ଇଂରାଜୀ ଶବ୍ଦକୋଷ ସନ୍ଧାନ",
+      "subtitle": "ଶବ୍ଦଗୁଡ଼ିକର ସଠିକ୍ ଅର୍ଥ ଖୋଜନ୍ତୁ",
+      "score": "ସ୍କୋର",
+      "lives": "ଜୀବନ",
+      "newGame": "ନୂତନ ଖେଳ",
+      "backToDashboard": "ଡ୍ୟାସବୋର୍ଡକୁ ଫେରନ୍ତୁ"
+    }
+  },
+  "common": {
+    "loading": "ଲୋଡ୍ ହେଉଛି...",
+    "error": "ଏକ ତ୍ରୁଟି ଘଟିଛି",
+    "retry": "ପୁନଃ ଚେଷ୍ଟା କରନ୍ତୁ",
+    "close": "ବନ୍ଦ କରନ୍ତୁ",
+    "save": "ସଞ୍ଚୟ କରନ୍ତୁ",
+    "cancel": "ବାତିଲ୍ କରନ୍ତୁ",
+    "continue": "ଜାରି ରଖନ୍ତୁ",
+    "back": "ପଛକୁ",
+    "next": "ପରବର୍ତ୍ତୀ",
+    "previous": "ପୂର୍ବବର୍ତ୍ତୀ"
+  }
+}

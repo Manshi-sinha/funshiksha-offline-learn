@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import funshikshaLogo from '@/assets/funshiksha-logo-official.jpg';
 
 interface SplashScreenProps {
@@ -6,6 +7,8 @@ interface SplashScreenProps {
 }
 
 const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
+  const { t } = useTranslation();
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       onComplete();
@@ -27,10 +30,10 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
         
         <div className="space-y-4">
           <h1 className="text-4xl md:text-6xl font-heading font-bold text-primary-foreground">
-            Funshiksha
+            {t('welcome.title')}
           </h1>
           <p className="text-xl md:text-2xl font-body text-primary-foreground/90">
-            मज़ेदार शिक्षा | Fun Learning
+            {t('welcome.subtitle')}
           </p>
           <div className="flex justify-center mt-8">
             <div className="animate-pulse">

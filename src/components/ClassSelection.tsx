@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { GraduationCap, BookOpen, Users } from 'lucide-react';
@@ -20,16 +21,18 @@ const classes = [
 
 
 const ClassSelection: React.FC<ClassSelectionProps> = ({ onClassSelect, onTeacherSelect }) => {
+  const { t } = useTranslation();
+  
   return (
 <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-100 via-blue-200 to-indigo-300 p-4">
 
       <div className="w-full max-w-4xl mx-auto animate-fade-in">
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
-            Welcome to Funshiksha!
+            {t('classSelection.title')}
           </h1>
           <p className="text-xl font-body text-muted-foreground">
-            Select your class to begin your learning journey
+            {t('classSelection.subtitle')}
           </p>
         </div>
 
@@ -51,7 +54,7 @@ const ClassSelection: React.FC<ClassSelectionProps> = ({ onClassSelect, onTeache
                     {classItem.label}
                   </h3>
                   <p className="text-sm opacity-90 font-body mt-1">
-                    Interactive Learning
+                    {t('classSelection.interactiveLearning')}
                   </p>
                 </CardContent>
               </Card>
@@ -69,7 +72,7 @@ const ClassSelection: React.FC<ClassSelectionProps> = ({ onClassSelect, onTeache
                 className="bg-accent text-accent-foreground hover:bg-accent/80 border-accent text-lg font-body px-8 py-4"
               >
                 <Users className="w-6 h-6 mr-3" />
-                I'm a Teacher
+                {t('classSelection.teacher')}
               </Button>
             </CardContent>
           </Card>

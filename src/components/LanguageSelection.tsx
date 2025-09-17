@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -13,6 +14,13 @@ const languages = [
 ];
 
 const LanguageSelection: React.FC<LanguageSelectionProps> = ({ onLanguageSelect }) => {
+  const { t, i18n } = useTranslation();
+
+  const handleLanguageSelect = (language: string) => {
+    i18n.changeLanguage(language);
+    onLanguageSelect(language);
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-vibrant p-4">
       <Card className="w-full max-w-md mx-auto animate-scale-in shadow-lg">
@@ -20,10 +28,10 @@ const LanguageSelection: React.FC<LanguageSelectionProps> = ({ onLanguageSelect 
           <div className="text-center space-y-6">
             <div className="space-y-2">
               <h2 className="text-2xl font-heading font-semibold text-foreground">
-                Choose Your Language
+                {t('languageSelection.title')}
               </h2>
               <p className="text-muted-foreground font-body">
-                भाषा चुनें | ଭାଷା ବାଛନ୍ତୁ
+                {t('languageSelection.subtitle')}
               </p>
             </div>
             
@@ -31,7 +39,7 @@ const LanguageSelection: React.FC<LanguageSelectionProps> = ({ onLanguageSelect 
               {languages.map((language) => (
                 <Button
                   key={language.code}
-                  onClick={() => onLanguageSelect(language.code)}
+                  onClick={() => handleLanguageSelect(language.code)}
                   variant="outline"
                   size="lg"
                   className="w-full h-16 text-lg font-body hover:bg-vibrant-turquoise hover:text-white hover:border-vibrant-turquoise transition-all duration-300 hover:scale-105"
@@ -45,7 +53,7 @@ const LanguageSelection: React.FC<LanguageSelectionProps> = ({ onLanguageSelect 
             </div>
             
             <p className="text-xs text-muted-foreground font-body">
-              You can change this later in settings
+              {t('languageSelection.note')}
             </p>
           </div>
         </CardContent>

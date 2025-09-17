@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -39,6 +40,7 @@ const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
   teacherId, 
   onBack 
 }) => {
+  const { t } = useTranslation();
   const [selectedClass, setSelectedClass] = useState<string | null>(null);
 
   return (
@@ -52,7 +54,7 @@ const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
             className="text-white hover:bg-white/20"
           >
             <Home className="w-4 h-4 mr-2" />
-            Home
+            {t('teacherDashboard.backToHome')}
           </Button>
           <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
             Teacher ID: {teacherId}
@@ -61,10 +63,10 @@ const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
         
         <div className="text-center">
           <h1 className="text-3xl font-heading font-bold mb-2">
-            Welcome, {teacherName}
+            {t('teacherDashboard.title')}, {teacherName}
           </h1>
           <p className="text-lg font-body opacity-90">
-            Teacher Dashboard - Monitor and Guide Student Progress
+            {t('teacherDashboard.subtitle')}
           </p>
         </div>
       </div>
@@ -81,7 +83,7 @@ const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
                   95
                 </div>
                 <div className="text-sm font-body text-muted-foreground">
-                  Total Students
+                  {t('teacherDashboard.totalStudents')}
                 </div>
               </CardContent>
             </Card>
@@ -93,7 +95,7 @@ const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
                   3
                 </div>
                 <div className="text-sm font-body text-muted-foreground">
-                  Active Classes
+                  {t('teacherDashboard.activeClasses')}
                 </div>
               </CardContent>
             </Card>

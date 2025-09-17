@@ -1,0 +1,125 @@
+{
+  "welcome": {
+    "title": "Funshiksha",
+    "subtitle": "Fun Learning"
+  },
+  "languageSelection": {
+    "title": "Choose Your Language",
+    "subtitle": "भाषा चुनें | ଭାଷା ବାଛନ୍ତୁ",
+    "note": "You can change this later in settings"
+  },
+  "classSelection": {
+    "title": "Welcome to Funshiksha!",
+    "subtitle": "Select your class to begin your learning journey",
+    "interactiveLearning": "Interactive Learning",
+    "teacher": "I'm a Teacher"
+  },
+  "studentLogin": {
+    "title": "Student Login",
+    "subtitle": "Enter your details to start learning",
+    "namePlaceholder": "Enter your full name",
+    "rollNumberPlaceholder": "Enter your roll number",
+    "startJourney": "Start Learning Journey",
+    "progressSaved": "Your progress will be saved locally on this device",
+    "backToHome": "Back to Home",
+    "invalidCredentials": "Invalid Roll Number or Name"
+  },
+  "teacherLogin": {
+    "title": "Teacher Portal",
+    "subtitle": "Access your teaching dashboard",
+    "loginIdPlaceholder": "Enter your Login ID",
+    "passwordPlaceholder": "Enter your password",
+    "login": "Login",
+    "register": "Register as New User",
+    "existingUser": "Existing User",
+    "newUser": "New User",
+    "backToHome": "Back to Home",
+    "invalidCredentials": "Invalid Login ID or Password"
+  },
+  "teacherRegistration": {
+    "title": "Teacher Registration",
+    "subtitle": "Create your teaching account",
+    "namePlaceholder": "Enter your full name",
+    "loginIdPlaceholder": "Create a unique Login ID",
+    "passwordPlaceholder": "Create a strong password",
+    "register": "Register Account",
+    "backToLogin": "Back to Login",
+    "registrationSuccess": "Registration successful! You can now login.",
+    "loginIdExists": "Login ID already exists. Please choose a different one."
+  },
+  "studentDashboard": {
+    "title": "Welcome back",
+    "subtitle": "Continue your learning journey",
+    "subjects": {
+      "math": "Mathematics",
+      "science": "Science", 
+      "sst": "Social Science",
+      "odia": "Odia",
+      "hindi": "Hindi",
+      "english": "English"
+    },
+    "progress": "Progress",
+    "startLearning": "Start Learning",
+    "backToHome": "Back to Home"
+  },
+  "teacherDashboard": {
+    "title": "Teacher Dashboard",
+    "subtitle": "Manage your classes and track student progress",
+    "totalStudents": "Total Students",
+    "activeClasses": "Active Classes", 
+    "assignmentsGraded": "Assignments Graded",
+    "averageScore": "Average Score",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "createAssignment": "Create Assignment",
+    "viewReports": "View Reports",
+    "manageStudents": "Manage Students",
+    "settings": "Settings",
+    "logout": "Logout",
+    "backToHome": "Back to Home"
+  },
+  "games": {
+    "indiaMap": {
+      "title": "Explore India",
+      "subtitle": "Click on states to learn interesting facts",
+      "backToDashboard": "Back to Dashboard"
+    },
+    "odiaWord": {
+      "title": "Odia Word Building",
+      "subtitle": "Build words by arranging letters correctly",
+      "score": "Score",
+      "timeLeft": "Time Left",
+      "newGame": "New Game",
+      "backToDashboard": "Back to Dashboard"
+    },
+    "hindiGrammar": {
+      "title": "Hindi Grammar Challenge", 
+      "subtitle": "Test your Hindi grammar knowledge",
+      "score": "Score",
+      "question": "Question",
+      "submit": "Submit",
+      "nextQuestion": "Next Question",
+      "backToDashboard": "Back to Dashboard"
+    },
+    "englishVocabulary": {
+      "title": "English Vocabulary Hunt",
+      "subtitle": "Find the correct meaning of words",
+      "score": "Score", 
+      "lives": "Lives",
+      "newGame": "New Game",
+      "backToDashboard": "Back to Dashboard"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}

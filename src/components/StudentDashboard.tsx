@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
@@ -28,7 +29,7 @@ interface StudentDashboardProps {
 const subjects = [
   {
     id: 'sst',
-    name: 'Social Science',
+    name: 'studentDashboard.subjects.sst',
     icon: Globe,
     progress: 45,
     color: 'bg-vibrant-turquoise',
@@ -36,7 +37,7 @@ const subjects = [
   },
   {
     id: 'math',
-    name: 'Mathematics',
+    name: 'studentDashboard.subjects.math',
     icon: Calculator,
     progress: 72,
     color: 'bg-vibrant-orange',
@@ -44,7 +45,7 @@ const subjects = [
   },
   {
     id: 'science',
-    name: 'Science',
+    name: 'studentDashboard.subjects.science',
     icon: Atom,
     progress: 58,
     color: 'bg-vibrant-green',
@@ -52,7 +53,7 @@ const subjects = [
   },
   {
     id: 'english',
-    name: 'English',
+    name: 'studentDashboard.subjects.english',
     icon: PenTool,
     progress: 83,
     color: 'bg-vibrant-blue',
@@ -66,6 +67,7 @@ const StudentDashboard: React.FC<StudentDashboardProps> = ({
   selectedClass, 
   onBack 
 }) => {
+  const { t } = useTranslation();
   const [expandedSubject, setExpandedSubject] = useState<string | null>(null);
   const [showMapGame, setShowMapGame] = useState(false);
    const [activeSubject, setActiveSubject] = useState<string | null>(null);
@@ -101,7 +103,7 @@ const StudentDashboard: React.FC<StudentDashboardProps> = ({
             className="mb-4"
           >
             <Home className="w-4 h-4 mr-2" />
-            Back to Dashboard
+            {t('studentDashboard.backToHome')}
           </Button>
         </div>
         <InteractiveIndiaMap />
@@ -120,7 +122,7 @@ const StudentDashboard: React.FC<StudentDashboardProps> = ({
             className="mb-4"
           >
             <Home className="w-4 h-4 mr-2" />
-            Back to Dashboard
+            {t('studentDashboard.backToHome')}
           </Button>
         </div>
         <ArithmeticPage />
@@ -145,7 +147,7 @@ const StudentDashboard: React.FC<StudentDashboardProps> = ({
             className="text-white hover:bg-white/20"
           >
             <Home className="w-4 h-4 mr-2" />
-            Home
+            {t('common.back')}
           </Button>
           <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
             Class {selectedClass}
@@ -154,7 +156,7 @@ const StudentDashboard: React.FC<StudentDashboardProps> = ({
         
         <div className="text-center">
           <h1 className="text-3xl font-heading font-bold mb-2">
-            Welcome back, {studentName}!
+            {t('studentDashboard.title')}, {studentName}!
           </h1>
           <p className="text-lg font-body opacity-90">
             Roll Number: {studentRoll}
@@ -229,11 +231,11 @@ const StudentDashboard: React.FC<StudentDashboardProps> = ({
                 </div>
                 <div className="flex-1">
                   <CardTitle className="font-heading text-lg">
-                    {subject.name}
+                    {t(subject.name)}
                   </CardTitle>
                   <div className="mt-2 space-y-1">
                     <div className="flex justify-between text-sm font-body">
-                      <span>Progress</span>
+                      <span>{t('studentDashboard.progress')}</span>
                       <span>{subject.progress}%</span>
                     </div>
                     <Progress value={subject.progress} className="h-2" />

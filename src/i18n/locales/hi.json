@@ -1,0 +1,125 @@
+{
+  "welcome": {
+    "title": "फनशिक्षा",
+    "subtitle": "मज़ेदार शिक्षा"
+  },
+  "languageSelection": {
+    "title": "अपनी भाषा चुनें",
+    "subtitle": "Choose Your Language | ଭାଷା ବାଛନ୍ତୁ",
+    "note": "आप इसे बाद में सेटिंग में बदल सकते हैं"
+  },
+  "classSelection": {
+    "title": "फनशिक्षा में आपका स्वागत है!",
+    "subtitle": "अपनी सीखने की यात्रा शुरू करने के लिए अपनी कक्षा चुनें",
+    "interactiveLearning": "इंटरैक्टिव लर्निंग",
+    "teacher": "मैं एक शिक्षक हूँ"
+  },
+  "studentLogin": {
+    "title": "छात्र लॉगिन",
+    "subtitle": "सीखना शुरू करने के लिए अपना विवरण दर्ज करें",
+    "namePlaceholder": "अपना पूरा नाम दर्ज करें",
+    "rollNumberPlaceholder": "अपना रोल नंबर दर्ज करें",
+    "startJourney": "सीखने की यात्रा शुरू करें",
+    "progressSaved": "आपकी प्रगति इस डिवाइस पर स्थानीय रूप से सहेजी जाएगी",
+    "backToHome": "होम पर वापस जाएं",
+    "invalidCredentials": "गलत रोल नंबर या नाम"
+  },
+  "teacherLogin": {
+    "title": "शिक्षक पोर्टल",
+    "subtitle": "अपने शिक्षण डैशबोर्ड तक पहुंचें",
+    "loginIdPlaceholder": "अपनी लॉगिन आईडी दर्ज करें",
+    "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+    "login": "लॉगिन",
+    "register": "नए उपयोगकर्ता के रूप में पंजीकरण करें",
+    "existingUser": "मौजूदा उपयोगकर्ता",
+    "newUser": "नया उपयोगकर्ता",
+    "backToHome": "होम पर वापस जाएं",
+    "invalidCredentials": "गलत लॉगिन आईडी या पासवर्ड"
+  },
+  "teacherRegistration": {
+    "title": "शिक्षक पंजीकरण",
+    "subtitle": "अपना शिक्षण खाता बनाएं",
+    "namePlaceholder": "अपना पूरा नाम दर्ज करें",
+    "loginIdPlaceholder": "एक अनूठी लॉगिन आईडी बनाएं",
+    "passwordPlaceholder": "एक मजबूत पासवर्ड बनाएं",
+    "register": "खाता पंजीकृत करें",
+    "backToLogin": "लॉगिन पर वापस जाएं",
+    "registrationSuccess": "पंजीकरण सफल! आप अब लॉगिन कर सकते हैं।",
+    "loginIdExists": "लॉगिन आईडी पहले से मौजूद है। कृपया एक अलग चुनें।"
+  },
+  "studentDashboard": {
+    "title": "वापस आपका स्वागत है",
+    "subtitle": "अपनी सीखने की यात्रा जारी रखें",
+    "subjects": {
+      "math": "गणित",
+      "science": "विज्ञान",
+      "sst": "सामाजिक विज्ञान",
+      "odia": "उड़िया",
+      "hindi": "हिंदी",
+      "english": "अंग्रेजी"
+    },
+    "progress": "प्रगति",
+    "startLearning": "सीखना शुरू करें",
+    "backToHome": "होम पर वापस जाएं"
+  },
+  "teacherDashboard": {
+    "title": "शिक्षक डैशबोर्ड",
+    "subtitle": "अपनी कक्षाओं का प्रबंधन करें और छात्रों की प्रगति को ट्रैक करें",
+    "totalStudents": "कुल छात्र",
+    "activeClasses": "सक्रिय कक्षाएं",
+    "assignmentsGraded": "ग्रेड किए गए असाइनमेंट",
+    "averageScore": "औसत स्कोर", 
+    "recentActivity": "हाल की गतिविधि",
+    "quickActions": "त्वरित कार्य",
+    "createAssignment": "असाइनमेंट बनाएं",
+    "viewReports": "रिपोर्ट देखें",
+    "manageStudents": "छात्रों का प्रबंधन करें",
+    "settings": "सेटिंग्स",
+    "logout": "लॉगआउट",
+    "backToHome": "होम पर वापस जाएं"
+  },
+  "games": {
+    "indiaMap": {
+      "title": "भारत की खोज करें",
+      "subtitle": "दिलचस्प तथ्य सीखने के लिए राज्यों पर क्लिक करें",
+      "backToDashboard": "डैशबोर्ड पर वापस जाएं"
+    },
+    "odiaWord": {
+      "title": "उड़िया शब्द निर्माण",
+      "subtitle": "अक्षरों को सही तरीके से व्यवस्थित करके शब्द बनाएं",
+      "score": "स्कोर",
+      "timeLeft": "समय बचा",
+      "newGame": "नया खेल",
+      "backToDashboard": "डैशबोर्ड पर वापस जाएं"
+    },
+    "hindiGrammar": {
+      "title": "हिंदी व्याकरण चुनौती",
+      "subtitle": "अपने हिंदी व्याकरण ज्ञान का परीक्षण करें",
+      "score": "स्कोर",
+      "question": "प्रश्न",
+      "submit": "जमा करें",
+      "nextQuestion": "अगला प्रश्न",
+      "backToDashboard": "डैशबोर्ड पर वापस जाएं"
+    },
+    "englishVocabulary": {
+      "title": "अंग्रेजी शब्दावली खोज",
+      "subtitle": "शब्दों का सही अर्थ खोजें",
+      "score": "स्कोर",
+      "lives": "जीवन",
+      "newGame": "नया खेल",
+      "backToDashboard": "डैशबोर्ड पर वापस जाएं"
+    }
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "एक त्रुटि हुई",
+    "retry": "पुनः प्रयास करें",
+    "close": "बंद करें",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "continue": "जारी रखें",
+    "back": "वापस",
+    "next": "अगला",
+    "previous": "पिछला"
+  }
+}
